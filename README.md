@@ -2,6 +2,9 @@
 
 A web app that allows users to collaboratively create maps which list multiple "points", for example: "Best Places to Eat Around Town" or "Locations of Movie Scenes".
 
+# Workflow
+https://www.notion.so/lighthouselabsmidterm/c7cad927e1aa445aa7705f587c888adf?v=9573f1f22d554abcbf1c2039d7ceb813
+
 # Requirements:
 
 - users can see a list of the available maps

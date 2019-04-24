@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Cain310/Mid-Term#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "pg": "^7.10.0"
   }
 }

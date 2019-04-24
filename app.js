@@ -14,3 +14,16 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.render("index.ejs");
 });
+
+// $(() => {
+//   $.ajax({
+//     method: "GET",
+//     url: "/api/users"
+//   }).done(users => {
+//     for (user of users) {
+//       $("<div>")
+//         .text(user.name)
+//         .appendTo($("body"));
+//     }
+//   });
+// });

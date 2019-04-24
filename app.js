@@ -4,10 +4,14 @@ var PORT = 8080; // default port 8080
 var auth = require('./auth/index')
 var cookieSession = require('cookie-session')
 
+<<<<<<< HEAD
 app.use(cookieSession({
   name: 'session',
   keys: ['key1', 'key2']
 }))
+=======
+app.set("view engine", "ejs");
+>>>>>>> b4d95bd547273e114137252205f8561ba7bc716e
 
 //Helper Functions
 function validUser(user) {
@@ -16,6 +20,7 @@ function validUser(user) {
     user.password.trim() != '' &&
     user.password.trim().length >= 6;
 
+<<<<<<< HEAD
   return validEmail && validPassword;
 }
 
@@ -33,6 +38,14 @@ function generateRandomString() {
 //All GET routes here
 app.get("/", (req, res) => {
   res.render("index.ejs");
+=======
+app.get("/", function(req, res) {
+  res.render("index");
+});
+
+app.post("/", function(req, res) {
+  res.render("index");
+>>>>>>> b4d95bd547273e114137252205f8561ba7bc716e
 });
 
 //register page users who are not already registered can register.
